@@ -13,6 +13,9 @@ gem 'sdoc',         '0.4.0', group: :doc
 gem 'annotate'
 gem 'view_source_map'
 
+gem 'slim-rails'
+gem 'html2slim'
+
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
   gem 'byebug',      '3.4.0'
