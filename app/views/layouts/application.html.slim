@@ -7,7 +7,7 @@ html
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
     = render 'layouts/shim'
-  body
+  body#test
     = render 'layouts/header'
     .container
       - flash.each do |message_type, message|
